@@ -5,7 +5,7 @@
     // Test whether or not an href is valid for injection
     let isValidPage = href => {
         let res;
-        if (href == "https://www.nitrotype.com/race") res = true;
+        if (href == "https://www.nitrotype.com/practice") res = true;
         else if (href.startsWith("https://www.nitrotype.com/race/")) res = true;
         else res = false;
         if (!localStorage['multratype']) {
